@@ -5,7 +5,7 @@ console.log('--- 1. Practice creating arrays ---');
 
 // Example: Creating an array of animals
 let animalArray = ['fish', 'cat', 'bird', 'dog'];
-console.log('Animals are: ', animalArray);
+console.log('EXAMPLE LOG: Animals are: ', animalArray);
 
 // 1. TODO: Make an array `favoriteFoods` with some favorite foods.
 //    Be sure to console.log your array of foods to the console with
@@ -18,7 +18,7 @@ console.log('--- 2. Length of an array ---');
 
 // Example: How many animals are in the array?
 let numberOfAnimals = animalArray.length // 👈 Using the .length property!
-console.log('Number of animals:', numberOfAnimals);
+console.log('EXAMPLE LOG: Number of animals:', numberOfAnimals);
 
 // 2. TODO: Create a variable `numberOfFoods` and use the .length property
 //    to assign it the number value of how many items are inside `favoriteFoods`.
@@ -31,7 +31,7 @@ console.log('--- 3. Accessing items in an array ---');
 
 // Example: Log the first animal from the array using its array index
 let firstAnimal = animalArray[0];
-console.log('First animal is', firstAnimal);
+console.log('EXAMPLE LOG: First animal is', firstAnimal);
 
 // 3.a. TODO: Create a variable `secondAnimal` and assign it the value
 //      of the second item from the `animalArray`.
@@ -63,7 +63,7 @@ console.log('--- 4. Adding and removing array items ---');
 // Example: Add an animal to the end of an array using the Array.push method.
 let animalToPush = 'penguin';
 animalArray.push(animalToPush);
-console.log('Added an animal to end,', animalArray);
+console.log('EXAMPLE LOG: Added an animal to end,', animalArray);
 
 // 4.a. TODO: Create a variable `dessert` and assign it a string value of
 //      a dessert that you love.
@@ -77,7 +77,7 @@ console.log(`Favorite foods after dessert: ${favoriteFoods}`);
 // Example: Add to the beginning of an array using the Array.unshift method.
 let animalToUnshift = 'walrus';
 animalArray.unshift(animalToUnshift);
-console.log(`Added an animal to beginning: ${animalArray}`);
+console.log(`EXAMPLE LOG: Added an animal to beginning: ${animalArray}`);
 
 // 4.b. TODO: Create a variable `entree` and assign it a string value of
 //      an entree that you enjoy.
@@ -88,8 +88,8 @@ console.log(`Added an entree to beginning of favorite foods: ${favoriteFoods}`);
 
 // Example: Remove the last animal by using the Array.pop method.
 let removedAnimal = animalArray.pop();
-console.log('Removed the last animal', removedAnimal);
-console.log('The animals are now', animalArray);
+console.log('EXAMPLE LOG: Removed the last animal', removedAnimal);
+console.log('EXAMPLE LOG: The animals are now', animalArray);
 
 // NOTE: Use the `colors` array for 4.c and 4.d.
 let colors = ['orange', 'yellow', 'green', 'teal'];
@@ -107,8 +107,8 @@ console.log(`Colors array is now: ${colors}`);
 
 // Example: Remove the first animal using the Array.shift method.
 removedAnimal = animalArray.shift();
-console.log('Removed the first animal', removedAnimal);
-console.log('The animals are now', animalArray);
+console.log('EXAMPLE LOG: Removed the first animal', removedAnimal);
+console.log('EXAMPLE LOG: The animals are now', animalArray);
 
 // 4.d. TODO: Remove the first value from the `colors` array and store it
 //      inside a new variable called `firstColor`.
