@@ -12,7 +12,7 @@ console.log('Animals are: ', animalArray);
 //    a message, similar to the example above.
 
 let favoriteFoods = ['Pizza', 'Tacos', 'Burgers', 'Wings'];
-console.log('Favorite foods are:', favoriteFoods);
+console.log(`Favorite foods are: ${favoriteFoods}`);
 // Array.length: A property that tells you how many items are in a given array.
 console.log('--- 2. Length of an array ---');
 
@@ -47,6 +47,9 @@ console.log('Second animal is', secondAnimal);
 //      you have proof that it works!)
 let lastAnimal = animalArray[animalArray.length -1];
 console.log(`Animals in array are: ${animalArray} and the last animal is : ${lastAnimal}`);
+//**TB - could also use slice **
+lastAnimal = animalArray.slice(-1);
+console.log(`Animals in array are ${animalArray} and the last animal is: ${lastAnimal} (slice)`);
 // 3.c. (STRETCH) TODO: Refactor 3.b to use the `animalArray` variable's .length 
 //       property, rather than the exact (hardcoded) index number of the last item.
 
@@ -66,10 +69,10 @@ console.log('Added an animal to end,', animalArray);
 //      a dessert that you love.
 //      Similar to above, add the `dessert` to the end of your `favoriteFoods`
 //      array. (How can you be 100% certain this worked? 🤔)
-console.log('Favorite foods before dessert:', favoriteFoods);
+console.log(`Favorite foods before dessert: ${favoriteFoods}`);
 let dessert = 'Pie';
 favoriteFoods.push(dessert);
-console.log('Favorite foods after dessert:', favoriteFoods);
+console.log(`Favorite foods after dessert: ${favoriteFoods}`);
 
 // Example: Add to the beginning of an array using the Array.unshift method.
 let animalToUnshift = 'walrus';
@@ -81,7 +84,7 @@ console.log(`Added an animal to beginning: ${animalArray}`);
 //      Add the `entree` to the beginning of your `favoriteFoods` array.
 let entree = 'King Crab';
 favoriteFoods.unshift(entree);
-console.log('Added an entree to beginning of favorite foods array', favoriteFoods);
+console.log(`Added an entree to beginning of favorite foods: ${favoriteFoods}`);
 
 // Example: Remove the last animal by using the Array.pop method.
 let removedAnimal = animalArray.pop();
@@ -97,10 +100,10 @@ let colors = ['orange', 'yellow', 'green', 'teal'];
 //      Don't forget! Use console.log to verify that the `colors`
 //      array only contains three items now, AND to verify that `lastColor`
 //      contains the value "teal".)
-console.log('Colors array:', colors);
+console.log(`Colors array: ${colors}`);
 let lastColor = colors.pop();
 console.log('Removed the last color:', lastColor);
-console.log('Colors array is now:', colors);
+console.log(`Colors array is now: ${colors}`);
 
 // Example: Remove the first animal using the Array.shift method.
 removedAnimal = animalArray.shift();
@@ -110,10 +113,10 @@ console.log('The animals are now', animalArray);
 // 4.d. TODO: Remove the first value from the `colors` array and store it
 //      inside a new variable called `firstColor`.
 //      To verify that your code worked, console.log `firstColor`!  
-console.log('Colors:', colors);
+console.log(`Colors: ${colors}`);
 let firstColor = colors.shift();
 console.log('Removed the first color:', firstColor);
-console.log('Colors are now:', colors);
+console.log(`Colors are now: ${colors}`);
 
 // STRETCH GOALS:
 
